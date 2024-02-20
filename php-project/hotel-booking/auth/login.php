@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    //validate the email with th equery
+    //validate the email with the query
 
     $login = $conn->query("SELECT * FROM users WHERE email = '$email'"); //this certain query returns a number, nb 1 since its only affecting one email
     $login->execute();
