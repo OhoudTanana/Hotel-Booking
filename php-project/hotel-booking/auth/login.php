@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
     //get the row count
 
     if($login->rowCOUNT() > 0){ //to validate the email, where going to bring the query that we have and add to it the 
-      //rowCount(), its goign to grab the nb of affected data, affected rows for a certain query, then if the user
+      //rowCount(), its going to grab the nb of affected data, affected rows for a certain query, then if the user
       //entered the right email this is going to affect only one row, if it matches its going to grab a row 
       //if its one (>0), then 
 
